@@ -17,17 +17,26 @@ function App() {
   }
 
    // reading time func here
-  const handleMarkRead = (readTime) => {
+  const handleMarkRead = (id,readTime) => {
     const readingTimeNum = parseInt(readingTime);
     const readTimeNum = parseInt(readTime);
     const newReadingTime = readingTimeNum + readTimeNum;
     setReadingTime(newReadingTime)
+    // remove the read blog from bookmark
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
   }
   return (
     <div>
+      {/* header area */}
       <Header></Header>
+
+      {/* main area */}
       <main className='md:flex gap-6 mx-20'>
+        {/* Blogs area */}
         <Blogs handleBookmark={handleBookmark} handleMarkRead={handleMarkRead}></Blogs>
+
+        {/* Bookmarks area */}
         <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </main>
     </div>
