@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/PYHj0gp/thought-catalog-505eect-W54k-unsplash.jpg",
+    "author_name": "John Doe",
+    "author_photo": "https://i.ibb.co/ynZ39C2/2.png",
+    "title": "A Journey Through Fiction",
+    "hashtag": ["#Adventure"," #Fiction"],
+    "reading_time": "10 minutes",
+    "month_date": "September 2023"
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co/y6MnQ4N/joanna-kosinska-B6y-Dt-Ys2-Ig-Y-unsplash.jpg",
+    "author_name": "Jane Smith",
+    "author_photo": "https://i.ibb.co/BLr92Xj/1.png",
+    "title": "Exploring the Unknown",
+    "hashtag":[ "#Exploration ","#Mystery"],
+    "reading_time": "8 minutes",
+    "month_date": "September 2023"
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co/4J2Fwby/0-Bo-Zu-MV2kfcjii-TDV.png",
+    "author_name": "David Johnson",
+    "author_photo": "https://i.ibb.co/Fw0Mpmt/3.png",
+    "title": "Cooking Delights",
+    "hashtag": ["#Cooking"," #Food"],
+    "reading_time": "15 minutes",
+    "month_date": "September 2023"
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co/k3wrFGY/536429-636334820562778630-16x9.jpg",
+    "author_name": "Emily Wilson",
+    "author_photo": "https://i.ibb.co/BLr92Xj/1.png",
+    "title": "Tech Trends 2023",
+    "hashtag": ["#Technology ","#Trends"],
+    "reading_time": "12 minutes",
+    "month_date": "September 2023"
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co/20r8xxg/blog3.jpg",
+    "author_name": "Michael Brown",
+    "author_photo": "https://i.ibb.co/ynZ39C2/2.png",
+    "title": "Health and Wellness",
+    "hashtag": ["#Health ","#Wellness"],
+    "reading_time": "7 minutes",
+    "month_date": "September 2023"
+  }
+]
