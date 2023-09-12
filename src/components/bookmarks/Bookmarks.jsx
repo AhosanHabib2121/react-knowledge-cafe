@@ -6,7 +6,7 @@ const Bookmarks = ({bookmarks,readingTime}) => {
         <div className="md:w-1/3">
             {/* read Time area */}
             <div className='bg-sky-100 px-4 pt-4 rounded-xl pb-4 mb-5'>
-                <h2 className="text-2xl font-semibold text-blue-600">Spent time on read : {readingTime? readingTime + " min":'' }</h2>
+                <h2 className="text-2xl font-semibold text-blue-600">Spent time on read : {readingTime? readingTime + " min" :'' }</h2>
             </div>
             {/* bookmark blogs */}
             <div className=" bg-slate-400 px-5 pt-4 rounded-xl pb-8">

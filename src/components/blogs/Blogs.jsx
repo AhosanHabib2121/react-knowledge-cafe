@@ -7,7 +7,7 @@ const Blogs = ({handleBookmark,handleMarkRead}) => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch('../../../public/blog.json')
+        fetch('blog.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
     },[])
